@@ -13,6 +13,6 @@ This is a simple stopwatch built using ReactJS. You can start, pause(or stop), a
 
 - Step 1: create folder 'src' in the workspace
 - Step 2: run this command in the workspace's terminal
-  `npx babel --watch src --out-dir . --presets react-app/prod`
+  - `npx babel --watch src --out-dir . --presets react-app/prod`
 
 Don’t wait for it to finish — this command starts an automated watcher for JSX. let command run in the terminal, and you can start to edit the component
