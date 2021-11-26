@@ -9,6 +9,10 @@ This is a simple stopwatch built using ReactJS. You can start, pause(or stop), a
 - Step 1: Run `npm init -y`
 - Step 2: Run `npm install babel-cli@6 babel-preset-react-app@3`
 - Step 3: run `npx babel --watch src --out-dir . --presets react-app/prod`
-- step 4: you can edit the component in the 'src' folder
 
-Don’t wait for it to finish — this command starts an automated watcher for JSX. let command run in the terminal, and you can start to edit the component
+  - Don’t wait for it to finish — this command starts an automated watcher for JSX. let command run in the terminal, and you can start to edit the component
+
+- step 4: you can edit the component in the 'src' folder
+- step 5: when you finished, run `npx terser -c -m -o index.min.js -- index.js`
+
+  - this command will minify the index.js
